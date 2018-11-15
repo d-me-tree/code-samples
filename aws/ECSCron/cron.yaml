@@ -1,0 +1,28 @@
+########################################################################################################################
+# TEMPLATE
+#
+# NOTE: command and environment are OPTIONAL. If not specified, the task definition will run unmodified.
+# environment variables will be ADDED to those already existing in task definition. If, however, the same
+# name is used, then the value will be overwritten.
+#
+#- rule_name: every_10_minutes
+#  schedule: cron(0/10 * * * ? *)  # https://docs.aws.amazon.com/AmazonCloudWatch/latest/events/ScheduledEvents.html
+#  tasks:
+#    - name: app-descriptive-task-name
+#      clusters: ['production', 'staging']
+#      task_definition: app-task-definition-name
+#      command: ['python', 'app.py']
+#      environment:
+#          - name: ENV_VAR_1
+#            value: VALUE_1
+#          - name: ENV_VAR_2
+#            value: VALUE_2
+########################################################################################################################
+
+- rule_name: every_10_minutes
+  schedule: cron(0/10 * * * ? *)
+  tasks:
+    - name: stacker-log-to-cloudwatch
+      clusters: ['production', 'staging']
+      task_definition: stacker-task
+      command: ['python', 'app.py']

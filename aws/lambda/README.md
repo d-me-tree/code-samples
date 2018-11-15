@@ -1,0 +1,10 @@
+## Resources
+- [AWS: Building Lambda Functions with Python](https://docs.aws.amazon.com/lambda/latest/dg/python-programming-model.html)
+- [AWS Tutorial: Configuring a Lambda Function to Access Amazon RDS in an Amazon VPC](https://docs.aws.amazon.com/lambda/latest/dg/vpc-rds.html)
+- [AWS Tutorial: Create a Lambda Function Using Environment Variables](https://docs.aws.amazon.com/lambda/latest/dg/tutorial-env_cli.html)
+- [Collection of AWS Lambda functions in Python](https://github.com/nicor88/aws-python-lambdas)
+- [Lambda Example: Generic AWS lambda to insert an event in a Database](https://github.com/nicor88/insert-to-db.python.lambda)
+- [2 years with AWS Lambda](https://medium.com/@mitch.zorze/2-years-with-aws-lambda-f835bfedec9f)
+- [Hassle-Free Python Lambda Deployment](https://joarleymoraes.com/hassle-free-python-lambda-deployment/)
+- [How to test a Python AWS Lambda function locally with PyCharm](https://medium.com/@bezdelev/how-to-test-a-python-aws-lambda-function-locally-with-pycharm-run-configurations-6de8efc4b206)
+- [(old) video: Lambda as Cron](https://www.youtube.com/watch?v=FhJxTIq81AU)
